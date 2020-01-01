@@ -31,10 +31,12 @@ header {
   padding: 2em;
 }
 
-header > img {
+header > a {
+  text-align: center;
+}
+header > a img {
   border-radius: 5em;
   max-width: 10em;
-  align-self: center
 }
 
 header h1 {
@@ -50,6 +52,10 @@ header nav img {
   width: 1.5em;
 }
 
+main {
+  margin: 2em 2em 2em 20em;
+}
+
 @media only screen and (max-width: 768px) {
   body {
     padding: 0;
@@ -62,4 +68,18 @@ header nav img {
     padding-bottom: 1em;
     align-items: center;
   }
+
+  main {
+    margin: 2em;
+    width: auto;
+  }
+}
+
+main h1, h2 {
+  color: #444;
+  margin: 0;
+}
+
+main h1 {
+  font-size: 40px;
 }
