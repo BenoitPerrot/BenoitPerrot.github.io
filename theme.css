@@ -79,10 +79,10 @@ main {
   color: #444;
 }
 
-main h1, h2 {
-  margin: 0;
-}
-
 main h1 {
   font-size: 40px;
+}
+
+main section {
+  border-bottom: solid 1px #ccc;
 }
