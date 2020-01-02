@@ -75,8 +75,11 @@ main {
   }
 }
 
-main h1, h2 {
+main {
   color: #444;
+}
+
+main h1, h2 {
   margin: 0;
 }
 
