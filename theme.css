@@ -45,7 +45,13 @@ header h1 {
 
 header nav a {
   color: white;
-  padding: 0.5em;
+  padding: 10px;
+  display: inline-block;
+}
+
+header nav h2 {
+  font-size: 15pt;
+  margin-top: 0;
 }
 
 header nav img {
@@ -67,6 +73,10 @@ main {
     width: auto;
     padding-bottom: 1em;
     align-items: center;
+  }
+
+  header nav h2 {
+    text-align: center;
   }
 
   main {
